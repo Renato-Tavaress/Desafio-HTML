@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Desafio com HTML </title>
+</head>
+<body style="padding: 0 1rem">
+   <h1 id="inicio">Introdução ao HTML na prática</h1>
+    <hr />
+
+<h2>Aulas HTML (Princípios Básicos)</h2>
+
+<ul>
+   <li><a href="#Html"> HTML é Linguagem de Programação? </a></li> 
+   <li><a href="#Estrutura"> Estrutura Básica </a></li>
+   <li><a href="#Tags"> Tags e Atributos </a></li>
+   <li><a href="#Tipografia"> Tipografia </a></li>
+   <li><a href="#Listas"> Listas Ordenadas e Não Ordenadas </a></li>
+   <li><a href="#Links"> Criando Links </a></li>
+</ul>
+
+<h2 id="Html"> HTML é Linguagem Programação? </h2>
+
+<p><strong><mark>NÃO!</mark></strong> Html não é considerado uma linguagem de programação, ele não cria funcionalidades dinâmicas.</p>
+<p>No entanto, com o HTML, os usuários podem criar e estruturar seções, parágrafos e links usando elementos, tags e atributos.</p> 
+
+<h2 id="Estrutura"> Estrutura Básica HTML </h2> 
+<h4><p>&lt;!DOCTYPE html&gt;</p></h4> 
+
+<p>
+    <blockquote>A tag !DOCTYPE informa ao navegador a versão do HTML que está sendo utilizada no documento.
+    Por exemplo: no HTML5, basta incluir !DOCTYPE html, e assim o navegador já saberá que se trata
+    de um documento na versão HTML5;</blockquote>
+</p>
+
+<h4><p>&lt;html&gt;&lt;/html&gt;</p></h4>
+
+<p>
+    <blockquote>Esta tag é o elemento básico da estrutura do HTML. Assim sendo, ela conterá todos os elementos do
+    seu documento. Todo documento HTML deve iniciar e finalizar com essa tag;</blockquote>
+</p>
+
+<h4><p>&lt;head&gt;&lt;/head&gt;</p></h4>  
+
+<p>
+    <blockquote>Essa tag delimita o cabeçalho do documento. Não possui nenhum valor visível,
+    porém é capaz de transmitir ao navegador diversas informações muito úteis e essenciais a uma boa 
+    apresentação do seu documento HTML;</blockquote>
+</p>
+
+<h4><p>&lt;title&gt;&lt;/title&gt;</p></h4>
+
+<p>
+    <blockquote>Essa tag define o título da sua página, o nome que aparecerá na sua aba, janela ou guia.
+    Por esta razão, a tag >title> é de grande importância para o SEO;</blockquote>
+</p>
+
+<h4><p>&lt;meta/&gt;</p></h4>
+
+<p>
+    <blockquote>Essa tag permite inserir metadados ao seu documento, no caso,
+     a informação charset=”UTF-8″, que garante a compatibilidade do código com os caracteres de padrão
+     latino americano;</blockquote>
+</p>
+
+<h4><p>&lt;body&gt;&lt;/body&gt;</p></h4>
+
+<p>
+    <blockquote>Finalmente, a tag que representa o corpo do documento. Em síntese, é nessa tag que todos
+    os elementos visíveis do seu site devem ser inseridos. Agora que já conhecemos as tags HTML que formam
+    a estrutura básica de uma página, podemos então estudar as diversas tags que contemplarão o documento.</blockquote>
+</p>
+
+<h3>Exemplo</h3>
+
+<p>
+<img 
+    style="width: 15rem"   
+    src="https://slideplayer.com.br/slide/1591251/5/images/5/Estrutura+b%C3%A1sica+de+uma+p%C3%A1gina.jpg"
+    alt="Estrutura Básica do HTML"
+    />
+</p>
+<small><a href="#Html"> Voltar</a> </small>
+
+    <h2 id="Tags">Tags e seus Atributos </h2>
+
+<h4> O que são Tags HTML? </h4>
+
+<p>
+   <li> As tags são usadas para informar ao navegador a estrutura do site. Ou seja: quando se escreve um código em HTML,
+    as tags serão interpretadas pelo navegador, produzindo assim a estrutura e o conteúdo visual da página.</li>
+</p>
+
+<p>
+    <li>As tags HTML são divididas em dois tipos: as que precisam de fechamento e as que não precisam de fechamento.
+    As tags que precisam de fechamento possuem a sintaxe &lt;tag&gt;&lt;/tag&gt;, já as que não precisam de fechamento possuem como estrutura &lt;/tag&gt;.</li>
+</p>
+
+<p>
+    <blockquote> <strong>AS TAGS DA <a href="#Estrutura" title="Visualisar">ESTRUTURA BÁSICA </a> FORAM CITADAS ACIMA<title>Clique para ver</title></strong></blockquote>
+</p>
+
+<h2>Atributos</h2>
+
+<p>
+    Os atributos são usados para personalizar as tags, modificando sua estrutura ou funcionalidade. Igualmente, os atributos são utilizados para atribuir uma classe ou id a um elemento.
+    A maioria das tags tem seus próprios atributos. Contudo, existem alguns atributos genéricos que podem ser utilizados na maioria das tags HTML. Veja alguns exemplos:
+</p>
+ 
+<h4>class="..."</h4> 
+
+<p> 
+    Atribui uma classe ao elemento (uma classe pode ser utilizada para um ou mais elementos);
+</p>  
+
+<h4>id="..."</h4> 
+
+<p>
+    Atribui um id ao elemento (um id deve ser único, ou seja atribuído a um único elemento);
+</p>
+
+<h4>style="..."</h4>
+
+<p>
+    Permite incluir elementos CSS (estilos) dentro da tag;
+</p>
+
+<h4>title="..."</h4>
+
+<p>Define o título do elemento;</p>
+
+<h4>width="..."</h4>
+
+<p>Define uma largura para o elemento;</p>
+
+<h4>height="..."</h4>
+
+<p>Define uma altura para o elemento.</p>
+
+<p><li><strong>Esses foram alguns atributos básicos que serão muitos usados quando estiverem desenvolvendo um projeto.</strong></p></li>
+<small><a href="#Tags">Voltar</a></small>
+
+<h2 id="Tipografia"> Tipografia HTML</h2>
+    
+    <h4>Tags HTML de Título</h4>
+<p>
+    - As tags de título possuem valor semântico, variando entre seis níveis hierárquicos.
+      Para fins de otimização SEO é importante entender como funcionam, e fazer uma utilização adequada.
+      Para definir títulos, utilizamos as tags:
+</p>
+
+    <h1><p><li>&lt;h1&gt;&lt;/h1&gt; - Título de maior valor hierárquico</li></p></h1>
+    <h2><p><li>&lt;h2&gt;&lt;/h2&gt;</li></p></h2>
+    <h3><p><li>&lt;h3&gt;&lt;/h3&gt;</li></p></h3>
+    <h4><p><li>&lt;h4&gt;&lt;/h4&gt;</li></p></h4>
+    <h5><p><li>&lt;h5&gt;&lt;/h5&gt;</li></p></h5>
+    <h6><p><li>&lt;h6&gt;&lt;/h6&gt; - Título de menor valor hierárquico</li></p></h6>
+<p>
+    <mark><b>Obs</b>: é importante dividir os títulos deixando o h1 apenas para o título principal, h2 ou h3 para títulos das seções
+    e h4 a h6 para subtítulos ou títulos que possuam baixo valor hierárquico em relação aos demais.
+    </mark></p>
+
+    <h4>Tags HTML de Texto</h4>
+
+    <p>
+       As tags de texto definem textos, estilos de fonte, parágrafos, spans, quebras de linhas, etc.
+       Vamos conhecê-las:
+    </p>
+
+    <h4><p>&lt;p&gt;&lt;/p&gt;</p></h4>
+
+<p>
+    - Principal tag de texto, compõe um parágrafo;
+</p>
+
+    <h4><p>&lt;br/&gt;</p></h4>
+
+<p>
+    Essa tag não necessita de fechamento, ela executa a função de quebra de linha.
+</p>
+    
+    <h4><p>&lt;hr/&gt;</p></h4>
+
+<p>
+    Essa tag não necessita de fechamento, ela forma uma linha horizontal.
+</p>
+
+    <h4><p>&lt;mark&gt;&lt;/mark&gt;</p></h4>
+
+<p>
+    Representa um trecho de destaque em um texto, por exemplo, <mark>uma sequência de texto marcado</mark>
+    como referência, devido à sua relevância em um contexto particular
+</p>
+
+    <h4><p>&lt;blockquote&gt;&lt;/blockquote&gt;</p></h4>
+
+<p>
+    Elemento de citação de bloco, indica que o texto incluído é uma longa citação.
+    Normalmente, este é processado visualmente pelo recuo.
+</p>
+    
+    <h4><p>&lt;b&gt;&lt;/b&gt;</p></h4>
+
+<p>
+    Transforma o conteúdo em <b>negrito;</b>
+</p>
+
+    <h4><p>&lt;i&gt;&lt;/i&gt;</p></h4>
+
+<p>
+    Transforma o conteúdo em <i>itálico;</i>
+</p>
+    
+    <h4><p>&lt;u&gt;&lt;/u&gt;</p></h4>
+
+<p>
+    Sublinha todo conteudo com <u>underlaine</u>
+</p>
+
+<small><a href="#Tipografia">Voltar</a></small>
+
+<h2 id="Listas">Tipo de Listas</h2> 
+
+<p><li>
+    Para poder criar uma lista, podemos utilizar uma lista ordenada, a partir das tags <b>&lt;ol&gt;&lt;/ol&gt;</b>,
+    ou uma lista não ordenada, a partir das tags <b>&lt;ul&gt;&lt;/ul&gt;</b>. Posteriormente, incluímos dentro da lista
+    os elementos da mesma, dentro das tags <b>&lt;li&gt;&lt;/li&gt;.</b></li>
+</p>
+
+<h4>Listas Ordenadas</h4>
+
+<p>
+    O Elemento <b>&lt;ol&gt;</b> representa uma lista de itens ordenados. De forma característica
+    esses itens ordenados em uma lista são mostrados com uma contagem que os precede, que pode ser
+    de qualquer tipo, como numerais, letras, algarismos romanos, ou simples símbolos.
+</p>
+
+<p>Minha lista <u><b>ordenada</b></u>:</p>
+
+<ol>
+  <li>item 1</li>
+  <li>item 2</li>
+  <li>item 3</li>
+</ol>
+
+<p>Também podemos fazer listas dentro de listas:</p> 
+
+<ol>
+    <li>Salgadinho</li>
+    <ul>
+        <li>Queijo</li>
+        <li>Presunto</li>
+
+    </ul>
+</ol>
+
+<h4>Listas Não Ordenadas</h4>
+
+<p>
+    Uma lista não ordenada é uma lista de itens. As listas de itens são marcadas com bullets
+    (tipicamente pequenos círculos pretos). Uma lista não ordenada começa com a tag &lt;ul&gt;.
+    Cada item da lista começa com a tag &lt;li&gt;
+</p>
+
+<p>Minha lista <u><b>não ordenada</b></u>:</p>
+
+<ul>
+  <li>item 1</li>
+  <li>item 2</li>
+  <li>item 3</li>
+</ul>
+
+<h2 id="Links">Links</h2>
+
+<p>
+    A tag de link HTML é responsável por fazer a ligação entre um documento e outro. 
+    Para realizar um link, podemos chamar as tags &lt;a&gt;&lt;/a&gt; com o atributo "<b>href</b>"
+    (O atributo é usado para fazer referência a uma URL externa). Por exemplo,
+    caso você queira criar um link no seu texto que redirecione à página da DIO:
+</p>
+
+<code>
+    &lt;a href="https://www.dio.me/" target="_blank"&gt;site da
+    dio&lt;/a&gt;
+</code>
+
+<p>
+    Repare que no codigo acima usamos um outro atributo chamado <b>(target="_blank")</b> que ao clicar
+    no link vai te redirecionar para o site através de outra ABA do navegador. 
+</p>
+<small><a href="#inicio"> Voltar ao Início</a> </small>
+
+<h2>Referências</h2>
+
+<a href="https://www.dio.me/" target="_blank">Dio.me</a><br />
+<a href="https://www.homehost.com.br/blog/tutoriais/tags-html/" target="_blank">Home Host HTML</a><br/>
+<a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML - W3 Schools</a><br />
+<a href="https://www.Google.com" target="_blank">Google<sup>2</sup></a><br/>    
