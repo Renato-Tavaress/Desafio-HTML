@@ -17,7 +17,7 @@ Além de outros recursos falados nas aulas!
   - Sobre a clínica  
   - Horário de Atendimento  
   - Contato  
-4. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.       
+3. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.       
   
 **Estrutura das páginas**    
   Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo template.html para utilizar como base.   
