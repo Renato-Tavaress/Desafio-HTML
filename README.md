@@ -9,12 +9,13 @@
 Além de outros recursos falados nas aulas!
 
 ### Instruções ###
+------------------------------------------------------------------------------------------------------------------------------------------  
 1.Você deve criar um site de uma clínica médica (**você escolhe a especialidade**)  
 2.Este site deve conter o seguinte menu de navegação:
-  - Página Principal
-  - Sobre a clínica
-  - Horário de Atendimento
-  - Contato
+   Página Principal
+   Sobre a clínica
+   Horário de Atendimento
+   Contato
 3.Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.  
    
 Abaixo como cada página deve ser criada e estruturada.  
