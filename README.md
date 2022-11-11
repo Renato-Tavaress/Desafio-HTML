@@ -8,29 +8,28 @@
 
 Além de outros recursos falados nas aulas!
 
-**Instruções**
-Você deve criar um site de uma clínica médica (**você escolhe a especialidade**)
-Este site deve conter o seguinte menu de navegação:
+###Instruções###
+1.Você deve criar um site de uma clínica médica (**você escolhe a especialidade**)
+2.Este site deve conter o seguinte menu de navegação:
+  - Página Principal
+  - Sobre a clínica
+  - Horário de Atendimento
+  - Contato
+3.Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.  
+   
+Abaixo como cada página deve ser criada e estruturada.  
 
-- Página Principal
-- Sobre a clínica
-- Horário de Atendimento
-- Contato
-
-Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
-Abaixo como cada página deve ser criada e estruturada.
-
-Estrutura das páginas
+**Estrutura das páginas**  
 Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo template.html para utilizar como base. Ele segue uma estrutura semelhante a image abaixo.
 
-Estrutura
+**Estrutura**  
 
+ No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma.  
 
-* No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma.
+No Menu, ficará localizado o menu de navegação (ah vá!), no Header de cada página ficará uma imagem, no Footer informações de contato, e o Content é o conteúdo de cada página.  
 
-No Menu, ficará localizado o menu de navegação (ah vá!), no Header de cada página ficará uma imagem, no Footer informações de contato, e o Content é o conteúdo de cada página.
+**Página Principal**
 
-Página Principal
 Deve ter uma imagem no Header.
 Em Content uma breve descrição sobre a clínica.
 Menu e Footer padrões em todas as páginas.
