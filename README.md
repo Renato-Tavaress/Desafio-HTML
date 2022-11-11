@@ -8,8 +8,8 @@
 
 Além de outros recursos falados nas aulas!
 
-###Instruções###
-1.Você deve criar um site de uma clínica médica (**você escolhe a especialidade**)
+### Instruções ###
+1.Você deve criar um site de uma clínica médica (**você escolhe a especialidade**)  
 2.Este site deve conter o seguinte menu de navegação:
   - Página Principal
   - Sobre a clínica
